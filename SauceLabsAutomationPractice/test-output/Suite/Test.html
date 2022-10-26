@@ -1,0 +1,462 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>32/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Oct 26 00:21:23 EDT 2022</td>
+</tr>
+<tr><td>Total time:</td><td>10 seconds (10891 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.InventoryPageTest.z_sauceLabsBackpack()'><b>z_sauceLabsBackpack</b><br>Test class: test.InventoryPageTest</td>
+<td></td>
+<td>0</td>
+<td>test.InventoryPageTest@1534f01b</td></tr>
+<tr>
+<td title='test.InventoryPageTest.closeMenu()'><b>closeMenu</b><br>Test class: test.InventoryPageTest</td>
+<td></td>
+<td>0</td>
+<td>test.InventoryPageTest@1534f01b</td></tr>
+<tr>
+<td title='test.HomePageTest.submit()'><b>submit</b><br>Test class: test.HomePageTest<br/>
+<a href="#Output-1350720002" onClick='toggleBox("Output-1350720002", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1350720002" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1350720002">
+Log in button is submitted<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.HomePageTest@48aaecc3</td></tr>
+<tr>
+<td title='test.HomePageTest.a_titleValidation()'><b>a_titleValidation</b><br>Test class: test.HomePageTest<br/>
+<a href="#Output-2000410491" onClick='toggleBox("Output-2000410491", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2000410491" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2000410491">
+Actual title = Swag Labs<br/>
+Expected title = Swag Labs<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.HomePageTest@48aaecc3</td></tr>
+<tr>
+<td title='test.ShoppingCartPageTest.title()'><b>title</b><br>Test class: test.ShoppingCartPageTest<br/>
+<a href="#Output-2041611826" onClick='toggleBox("Output-2041611826", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2041611826" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2041611826">
+Title text is CHECKOUT: YOUR INFORMATION<br/>
+Title is displayed true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.ShoppingCartPageTest@2ea227af</td></tr>
+<tr>
+<td title='test.HomePageTest.a_loginButton()'><b>a_loginButton</b><br>Test class: test.HomePageTest<br/>
+<a href="#Output-397309480" onClick='toggleBox("Output-397309480", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-397309480" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-397309480">
+Login button size is = (346, 45)<br/>
+Login button color is = rgba(255, 255, 255, 1)<br/>
+Font is = Roboto, Arial, Helvetica, sans-serif<br/>
+Font size is = 18px<br/>
+Login logo location is = (360, 323)<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.HomePageTest@48aaecc3</td></tr>
+<tr>
+<td title='test.SauceLabsBackpackPageTest.z_clickCartLink()'><b>z_clickCartLink</b><br>Test class: test.SauceLabsBackpackPageTest<br/>
+<a href="#Output-1538745405" onClick='toggleBox("Output-1538745405", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1538745405" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1538745405">
+Shopping cart link was clicked<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.SauceLabsBackpackPageTest@78e117e3</td></tr>
+<tr>
+<td title='test.SauceLabsBackpackPageTest.verifyText()'><b>verifyText</b><br>Test class: test.SauceLabsBackpackPageTest<br/>
+<a href="#Output-708350323" onClick='toggleBox("Output-708350323", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-708350323" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-708350323">
+Expected text = Sauce Labs Backpack<br/>
+Actual text = Sauce Labs Backpack<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.SauceLabsBackpackPageTest@78e117e3</td></tr>
+<tr>
+<td title='test.SauceLabsBackpackPageTest.addToCart()'><b>addToCart</b><br>Test class: test.SauceLabsBackpackPageTest<br/>
+<a href="#Output-670951536" onClick='toggleBox("Output-670951536", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-670951536" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-670951536">
+Add to cart is displayed true<br/>
+Add to cart text is ADD TO CART<br/>
+Add to cart button was clicked<br/>
+Items in cart after one click = 1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.SauceLabsBackpackPageTest@78e117e3</td></tr>
+<tr>
+<td title='test.InventoryPageTest.a_openMenu()'><b>a_openMenu</b><br>Test class: test.InventoryPageTest</td>
+<td></td>
+<td>0</td>
+<td>test.InventoryPageTest@1534f01b</td></tr>
+<tr>
+<td title='test.HomePageTest.a_urlVerification()'><b>a_urlVerification</b><br>Test class: test.HomePageTest<br/>
+<a href="#Output-1800932232" onClick='toggleBox("Output-1800932232", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1800932232" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1800932232">
+https://www.saucedemo.com/<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.HomePageTest@48aaecc3</td></tr>
+<tr>
+<td title='test.InventoryPageTest.logout()'><b>logout</b><br>Test class: test.InventoryPageTest<br/>
+<a href="#Output-1832657711" onClick='toggleBox("Output-1832657711", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1832657711" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1832657711">
+Logout text is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.InventoryPageTest@1534f01b</td></tr>
+<tr>
+<td title='test.SauceLabsBackpackPageTest.z_facebook()'><b>z_facebook</b><br>Test class: test.SauceLabsBackpackPageTest<br/>
+<a href="#Output-1913113425" onClick='toggleBox("Output-1913113425", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1913113425" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1913113425">
+Facebook button is displayed true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.SauceLabsBackpackPageTest@78e117e3</td></tr>
+<tr>
+<td title='test.CheckoutOverviewPageTest.finishBtn()'><b>finishBtn</b><br>Test class: test.CheckoutOverviewPageTest</td>
+<td></td>
+<td>0</td>
+<td>test.CheckoutOverviewPageTest@363ee3a2</td></tr>
+<tr>
+<td title='test.SauceLabsBackpackPageTest.verifyDescription()'><b>verifyDescription</b><br>Test class: test.SauceLabsBackpackPageTest<br/>
+<a href="#Output-1256350655" onClick='toggleBox("Output-1256350655", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1256350655" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1256350655">
+Expected description = carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.<br/>
+Actual description = carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.SauceLabsBackpackPageTest@78e117e3</td></tr>
+<tr>
+<td title='test.ShoppingCartPageTest.appLogo()'><b>appLogo</b><br>Test class: test.ShoppingCartPageTest<br/>
+<a href="#Output-543409470" onClick='toggleBox("Output-543409470", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-543409470" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-543409470">
+Logo is displayed true<br/>
+Logo color is rgba(72, 76, 85, 1)<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.ShoppingCartPageTest@2ea227af</td></tr>
+<tr>
+<td title='test.CheckoutPageTest.appLogo()'><b>appLogo</b><br>Test class: test.CheckoutPageTest<br/>
+<a href="#Output-1433568941" onClick='toggleBox("Output-1433568941", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1433568941" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1433568941">
+Logo is displayed true<br/>
+Logo color is rgba(72, 76, 85, 1)<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.CheckoutPageTest@4386f16</td></tr>
+<tr>
+<td title='test.SauceLabsBackpackPageTest.z_twitter()'><b>z_twitter</b><br>Test class: test.SauceLabsBackpackPageTest<br/>
+<a href="#Output-882962176" onClick='toggleBox("Output-882962176", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-882962176" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-882962176">
+Twitter button is displayed true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.SauceLabsBackpackPageTest@78e117e3</td></tr>
+<tr>
+<td title='test.SauceLabsBackpackPageTest.remove()'><b>remove</b><br>Test class: test.SauceLabsBackpackPageTest<br/>
+<a href="#Output-1465179762" onClick='toggleBox("Output-1465179762", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1465179762" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1465179762">
+Remove is displayed true<br/>
+Remove button text is REMOVE<br/>
+Remove button was clicked<br/>
+Add to Cart button was clicked<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.SauceLabsBackpackPageTest@78e117e3</td></tr>
+<tr>
+<td title='test.SauceLabsBackpackPageTest.z_linkedIn()'><b>z_linkedIn</b><br>Test class: test.SauceLabsBackpackPageTest<br/>
+<a href="#Output-727018418" onClick='toggleBox("Output-727018418", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-727018418" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-727018418">
+LinkedIn button is displayed true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.SauceLabsBackpackPageTest@78e117e3</td></tr>
+<tr>
+<td title='test.HomePageTest.enterUsername()'><b>enterUsername</b><br>Test class: test.HomePageTest<br>Parameters: standard_user<br/>
+<a href="#Output-1186989416" onClick='toggleBox("Output-1186989416", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1186989416" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1186989416">
+username size = (346, 43)<br/>
+username color is = rgba(72, 76, 85, 1)<br/>
+username location is = (360, 167)<br/>
+username font is = Roboto, Arial, Helvetica, sans-serif<br/>
+username font size is = 18px<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.HomePageTest@48aaecc3</td></tr>
+<tr>
+<td title='test.CheckoutPageTest.validInformation()'><b>validInformation</b><br>Test class: test.CheckoutPageTest<br>Parameters: Mary, Smith, 33484</td>
+<td></td>
+<td>0</td>
+<td>test.CheckoutPageTest@4386f16</td></tr>
+<tr>
+<td title='test.ShoppingCartPageTest.menuBtn()'><b>menuBtn</b><br>Test class: test.ShoppingCartPageTest<br/>
+<a href="#Output-1876259196" onClick='toggleBox("Output-1876259196", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1876259196" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1876259196">
+Menu button is displayed true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.ShoppingCartPageTest@2ea227af</td></tr>
+<tr>
+<td title='test.InventoryPageTest.allItems()'><b>allItems</b><br>Test class: test.InventoryPageTest<br/>
+<a href="#Output-2040623756" onClick='toggleBox("Output-2040623756", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2040623756" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2040623756">
+All items text is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.InventoryPageTest@1534f01b</td></tr>
+<tr>
+<td title='test.SauceLabsBackpackPageTest.itemPrice()'><b>itemPrice</b><br>Test class: test.SauceLabsBackpackPageTest<br/>
+<a href="#Output-1774795940" onClick='toggleBox("Output-1774795940", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1774795940" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1774795940">
+Item's price is displayed true<br/>
+Item's price is $29.99<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.SauceLabsBackpackPageTest@78e117e3</td></tr>
+<tr>
+<td title='test.InventoryPageTest.resetApp()'><b>resetApp</b><br>Test class: test.InventoryPageTest<br/>
+<a href="#Output-1654589039" onClick='toggleBox("Output-1654589039", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1654589039" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1654589039">
+Reset app state text is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.InventoryPageTest@1534f01b</td></tr>
+<tr>
+<td title='test.CheckoutPageTest.menuBtn()'><b>menuBtn</b><br>Test class: test.CheckoutPageTest<br/>
+<a href="#Output-1657697023" onClick='toggleBox("Output-1657697023", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1657697023" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1657697023">
+Menu button is displayed true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.CheckoutPageTest@4386f16</td></tr>
+<tr>
+<td title='test.CheckoutPageTest.checkoutForm()'><b>checkoutForm</b><br>Test class: test.CheckoutPageTest<br/>
+<a href="#Output-146799499" onClick='toggleBox("Output-146799499", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-146799499" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-146799499">
+First name is displayed true<br/>
+Last name is displayed true<br/>
+ZipCode is displayed true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.CheckoutPageTest@4386f16</td></tr>
+<tr>
+<td title='test.HomePageTest.a_loginLogo()'><b>a_loginLogo</b><br>Test class: test.HomePageTest<br/>
+<a href="#Output-1160106451" onClick='toggleBox("Output-1160106451", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1160106451" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1160106451">
+Login logo size = (1440, 60)<br/>
+Login logo color is = rgba(72, 76, 85, 1)<br/>
+Login logo location is = (0, 30)<br/>
+Font is = Roboto, Arial, Helvetica, sans-serif<br/>
+Font size is = 14px<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.HomePageTest@48aaecc3</td></tr>
+<tr>
+<td title='test.ShoppingCartPageTest.checkoutButton()'><b>checkoutButton</b><br>Test class: test.ShoppingCartPageTest<br/>
+<a href="#Output-1333945918" onClick='toggleBox("Output-1333945918", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1333945918" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1333945918">
+Checkout button color is rgba(255, 255, 255, 1)<br/>
+Checkout button size is  (220, 32)<br/>
+Checkout button text is CHECKOUT<br/>
+Checkout button is displayed  true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.ShoppingCartPageTest@2ea227af</td></tr>
+<tr>
+<td title='test.HomePageTest.enterPassword()'><b>enterPassword</b><br>Test class: test.HomePageTest<br>Parameters: secret_sauce<br/>
+<a href="#Output-8136897" onClick='toggleBox("Output-8136897", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-8136897" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-8136897">
+Password size = (346, 43)<br/>
+password color is = rgba(72, 76, 85, 1)<br/>
+password location is = (360, 225)<br/>
+password font is = Roboto, Arial, Helvetica, sans-serif<br/>
+password font size is = 18px<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.HomePageTest@48aaecc3</td></tr>
+<tr>
+<td title='test.InventoryPageTest.about()'><b>about</b><br>Test class: test.InventoryPageTest<br/>
+<a href="#Output-1457148583" onClick='toggleBox("Output-1457148583", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1457148583" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1457148583">
+About text is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.InventoryPageTest@1534f01b</td></tr>
+</table><p>
+</body>
+</html>

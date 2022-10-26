@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="password" value="secret_sauce"/>
+  <parameter name="validFirstName" value="Mary"/>
+  <parameter name="validZipCode" value="33484"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="validLastName" value="Smith"/>
+  <parameter name="url" value="https://www.saucedemo.com"/>
+  <parameter name="username" value="standard_user"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="test.InventoryPageTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="closeMenu"/>
+        </methods>
+      </class> <!-- test.InventoryPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
