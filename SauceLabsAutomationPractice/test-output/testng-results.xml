@@ -41,21 +41,6 @@
       <![CDATA[https://www.saucedemo.com/]]>
     </line>
     <line>
-      <![CDATA[Password size = (346, 43)]]>
-    </line>
-    <line>
-      <![CDATA[password color is = rgba(72, 76, 85, 1)]]>
-    </line>
-    <line>
-      <![CDATA[password location is = (360, 225)]]>
-    </line>
-    <line>
-      <![CDATA[password font is = Roboto, Arial, Helvetica, sans-serif]]>
-    </line>
-    <line>
-      <![CDATA[password font size is = 18px]]>
-    </line>
-    <line>
       <![CDATA[username size = (346, 43)]]>
     </line>
     <line>
@@ -69,6 +54,21 @@
     </line>
     <line>
       <![CDATA[username font size is = 18px]]>
+    </line>
+    <line>
+      <![CDATA[Password size = (346, 43)]]>
+    </line>
+    <line>
+      <![CDATA[password color is = rgba(72, 76, 85, 1)]]>
+    </line>
+    <line>
+      <![CDATA[password location is = (360, 225)]]>
+    </line>
+    <line>
+      <![CDATA[password font is = Roboto, Arial, Helvetica, sans-serif]]>
+    </line>
+    <line>
+      <![CDATA[password font size is = 18px]]>
     </line>
     <line>
       <![CDATA[Log in button is submitted]]>
@@ -185,18 +185,18 @@
       <![CDATA[Menu button is displayed true]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-10-26T00:21:23 EDT" name="Suite" finished-at="2022-10-26T00:21:34 EDT" duration-ms="10891">
+  <suite started-at="2022-10-26T13:59:44 EDT" name="Suite" finished-at="2022-10-26T13:59:52 EDT" duration-ms="8368">
     <groups>
     </groups>
-    <test started-at="2022-10-26T00:21:23 EDT" name="Test" finished-at="2022-10-26T00:21:34 EDT" duration-ms="10891">
+    <test started-at="2022-10-26T13:59:44 EDT" name="Test" finished-at="2022-10-26T13:59:52 EDT" duration-ms="8368">
       <class name="test.CheckoutOverviewPageTest">
-        <test-method signature="finishBtn()[pri:0, instance:test.CheckoutOverviewPageTest@363ee3a2]" started-at="2022-10-26T00:21:34 EDT" name="finishBtn" finished-at="2022-10-26T00:21:34 EDT" duration-ms="210" status="PASS">
+        <test-method signature="finishBtn()[pri:0, instance:test.CheckoutOverviewPageTest@6fe7aac8]" started-at="2022-10-26T13:59:52 EDT" name="finishBtn" finished-at="2022-10-26T13:59:52 EDT" duration-ms="201" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finishBtn -->
       </class> <!-- test.CheckoutOverviewPageTest -->
       <class name="test.ShoppingCartPageTest">
-        <test-method signature="appLogo()[pri:0, instance:test.ShoppingCartPageTest@2ea227af]" started-at="2022-10-26T00:21:32 EDT" name="appLogo" finished-at="2022-10-26T00:21:32 EDT" duration-ms="79" status="PASS">
+        <test-method signature="appLogo()[pri:0, instance:test.ShoppingCartPageTest@69b2283a]" started-at="2022-10-26T13:59:50 EDT" name="appLogo" finished-at="2022-10-26T13:59:50 EDT" duration-ms="102" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Logo is displayed true]]>
@@ -206,7 +206,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- appLogo -->
-        <test-method signature="checkoutButton()[pri:0, instance:test.ShoppingCartPageTest@2ea227af]" started-at="2022-10-26T00:21:32 EDT" name="checkoutButton" finished-at="2022-10-26T00:21:32 EDT" duration-ms="712" status="PASS">
+        <test-method signature="checkoutButton()[pri:0, instance:test.ShoppingCartPageTest@69b2283a]" started-at="2022-10-26T13:59:50 EDT" name="checkoutButton" finished-at="2022-10-26T13:59:51 EDT" duration-ms="373" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Checkout button color is rgba(255, 255, 255, 1)]]>
@@ -222,14 +222,14 @@
             </line>
           </reporter-output>
         </test-method> <!-- checkoutButton -->
-        <test-method signature="menuBtn()[pri:0, instance:test.ShoppingCartPageTest@2ea227af]" started-at="2022-10-26T00:21:32 EDT" name="menuBtn" finished-at="2022-10-26T00:21:32 EDT" duration-ms="73" status="PASS">
+        <test-method signature="menuBtn()[pri:0, instance:test.ShoppingCartPageTest@69b2283a]" started-at="2022-10-26T13:59:51 EDT" name="menuBtn" finished-at="2022-10-26T13:59:51 EDT" duration-ms="77" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Menu button is displayed true]]>
             </line>
           </reporter-output>
         </test-method> <!-- menuBtn -->
-        <test-method signature="title()[pri:0, instance:test.ShoppingCartPageTest@2ea227af]" started-at="2022-10-26T00:21:32 EDT" name="title" finished-at="2022-10-26T00:21:33 EDT" duration-ms="112" status="PASS">
+        <test-method signature="title()[pri:0, instance:test.ShoppingCartPageTest@69b2283a]" started-at="2022-10-26T13:59:51 EDT" name="title" finished-at="2022-10-26T13:59:51 EDT" duration-ms="118" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Title text is CHECKOUT: YOUR INFORMATION]]>
@@ -241,7 +241,7 @@
         </test-method> <!-- title -->
       </class> <!-- test.ShoppingCartPageTest -->
       <class name="test.CheckoutPageTest">
-        <test-method signature="appLogo()[pri:0, instance:test.CheckoutPageTest@4386f16]" started-at="2022-10-26T00:21:33 EDT" name="appLogo" finished-at="2022-10-26T00:21:33 EDT" duration-ms="165" status="PASS">
+        <test-method signature="appLogo()[pri:0, instance:test.CheckoutPageTest@22a637e7]" started-at="2022-10-26T13:59:51 EDT" name="appLogo" finished-at="2022-10-26T13:59:51 EDT" duration-ms="68" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Logo is displayed true]]>
@@ -251,7 +251,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- appLogo -->
-        <test-method signature="checkoutForm()[pri:0, instance:test.CheckoutPageTest@4386f16]" started-at="2022-10-26T00:21:33 EDT" name="checkoutForm" finished-at="2022-10-26T00:21:33 EDT" duration-ms="136" status="PASS">
+        <test-method signature="checkoutForm()[pri:0, instance:test.CheckoutPageTest@22a637e7]" started-at="2022-10-26T13:59:51 EDT" name="checkoutForm" finished-at="2022-10-26T13:59:51 EDT" duration-ms="115" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[First name is displayed true]]>
@@ -264,14 +264,14 @@
             </line>
           </reporter-output>
         </test-method> <!-- checkoutForm -->
-        <test-method signature="menuBtn()[pri:0, instance:test.CheckoutPageTest@4386f16]" started-at="2022-10-26T00:21:33 EDT" name="menuBtn" finished-at="2022-10-26T00:21:33 EDT" duration-ms="90" status="PASS">
+        <test-method signature="menuBtn()[pri:0, instance:test.CheckoutPageTest@22a637e7]" started-at="2022-10-26T13:59:51 EDT" name="menuBtn" finished-at="2022-10-26T13:59:51 EDT" duration-ms="39" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Menu button is displayed true]]>
             </line>
           </reporter-output>
         </test-method> <!-- menuBtn -->
-        <test-method signature="validInformation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.CheckoutPageTest@4386f16]" started-at="2022-10-26T00:21:33 EDT" name="validInformation" finished-at="2022-10-26T00:21:34 EDT" duration-ms="799" status="PASS">
+        <test-method signature="validInformation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.CheckoutPageTest@22a637e7]" started-at="2022-10-26T13:59:51 EDT" name="validInformation" finished-at="2022-10-26T13:59:52 EDT" duration-ms="1030" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -294,7 +294,7 @@
         </test-method> <!-- validInformation -->
       </class> <!-- test.CheckoutPageTest -->
       <class name="test.HomePageTest">
-        <test-method is-config="true" signature="beforeTest(java.lang.String,java.lang.String)[pri:0, instance:test.HomePageTest@48aaecc3]" started-at="2022-10-26T00:21:23 EDT" name="beforeTest" finished-at="2022-10-26T00:21:28 EDT" duration-ms="5225" status="PASS">
+        <test-method is-config="true" signature="beforeTest(java.lang.String,java.lang.String)[pri:0, instance:test.HomePageTest@ef9296d]" started-at="2022-10-26T13:59:44 EDT" name="beforeTest" finished-at="2022-10-26T13:59:48 EDT" duration-ms="3532" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -310,7 +310,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="a_loginButton()[pri:0, instance:test.HomePageTest@48aaecc3]" started-at="2022-10-26T00:21:28 EDT" name="a_loginButton" finished-at="2022-10-26T00:21:29 EDT" duration-ms="151" status="PASS">
+        <test-method signature="a_loginButton()[pri:0, instance:test.HomePageTest@ef9296d]" started-at="2022-10-26T13:59:48 EDT" name="a_loginButton" finished-at="2022-10-26T13:59:48 EDT" duration-ms="145" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Login button size is = (346, 45)]]>
@@ -329,7 +329,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- a_loginButton -->
-        <test-method signature="a_loginLogo()[pri:0, instance:test.HomePageTest@48aaecc3]" started-at="2022-10-26T00:21:29 EDT" name="a_loginLogo" finished-at="2022-10-26T00:21:29 EDT" duration-ms="133" status="PASS">
+        <test-method signature="a_loginLogo()[pri:0, instance:test.HomePageTest@ef9296d]" started-at="2022-10-26T13:59:48 EDT" name="a_loginLogo" finished-at="2022-10-26T13:59:48 EDT" duration-ms="86" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Login logo size = (1440, 60)]]>
@@ -348,7 +348,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- a_loginLogo -->
-        <test-method signature="a_titleValidation()[pri:0, instance:test.HomePageTest@48aaecc3]" started-at="2022-10-26T00:21:29 EDT" name="a_titleValidation" finished-at="2022-10-26T00:21:29 EDT" duration-ms="21" status="PASS">
+        <test-method signature="a_titleValidation()[pri:0, instance:test.HomePageTest@ef9296d]" started-at="2022-10-26T13:59:48 EDT" name="a_titleValidation" finished-at="2022-10-26T13:59:48 EDT" duration-ms="14" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Actual title = Swag Labs]]>
@@ -358,47 +358,14 @@
             </line>
           </reporter-output>
         </test-method> <!-- a_titleValidation -->
-        <test-method signature="a_urlVerification()[pri:0, instance:test.HomePageTest@48aaecc3]" started-at="2022-10-26T00:21:29 EDT" name="a_urlVerification" finished-at="2022-10-26T00:21:29 EDT" duration-ms="15" status="PASS">
+        <test-method signature="a_urlVerification()[pri:0, instance:test.HomePageTest@ef9296d]" started-at="2022-10-26T13:59:48 EDT" name="a_urlVerification" finished-at="2022-10-26T13:59:48 EDT" duration-ms="12" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[https://www.saucedemo.com/]]>
             </line>
           </reporter-output>
         </test-method> <!-- a_urlVerification -->
-        <test-method signature="enterPassword(java.lang.String)[pri:0, instance:test.HomePageTest@48aaecc3]" started-at="2022-10-26T00:21:29 EDT" name="enterPassword" finished-at="2022-10-26T00:21:29 EDT" duration-ms="237" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Password size = (346, 43)]]>
-            </line>
-            <line>
-              <![CDATA[password color is = rgba(72, 76, 85, 1)]]>
-            </line>
-            <line>
-              <![CDATA[password location is = (360, 225)]]>
-            </line>
-            <line>
-              <![CDATA[password font is = Roboto, Arial, Helvetica, sans-serif]]>
-            </line>
-            <line>
-              <![CDATA[password font size is = 18px]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- enterPassword -->
-        <test-method signature="enterUsername(java.lang.String)[pri:0, instance:test.HomePageTest@48aaecc3]" started-at="2022-10-26T00:21:29 EDT" name="enterUsername" finished-at="2022-10-26T00:21:29 EDT" duration-ms="196" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[standard_user]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="a_usernamePasswordTextBoxInfo()[pri:0, instance:test.HomePageTest@ef9296d]" started-at="2022-10-26T13:59:48 EDT" name="a_usernamePasswordTextBoxInfo" finished-at="2022-10-26T13:59:48 EDT" duration-ms="133" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[username size = (346, 43)]]>
@@ -415,60 +382,91 @@
             <line>
               <![CDATA[username font size is = 18px]]>
             </line>
+            <line>
+              <![CDATA[Password size = (346, 43)]]>
+            </line>
+            <line>
+              <![CDATA[password color is = rgba(72, 76, 85, 1)]]>
+            </line>
+            <line>
+              <![CDATA[password location is = (360, 225)]]>
+            </line>
+            <line>
+              <![CDATA[password font is = Roboto, Arial, Helvetica, sans-serif]]>
+            </line>
+            <line>
+              <![CDATA[password font size is = 18px]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- enterUsername -->
-        <test-method signature="submit()[pri:0, instance:test.HomePageTest@48aaecc3]" started-at="2022-10-26T00:21:29 EDT" name="submit" finished-at="2022-10-26T00:21:29 EDT" duration-ms="218" status="PASS">
+        </test-method> <!-- a_usernamePasswordTextBoxInfo -->
+        <test-method signature="tc2(java.lang.String,java.lang.String)[pri:0, instance:test.HomePageTest@ef9296d]" started-at="2022-10-26T13:59:48 EDT" name="tc2" finished-at="2022-10-26T13:59:48 EDT" duration-ms="227" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+        <test-method signature="z_submit()[pri:0, instance:test.HomePageTest@ef9296d]" started-at="2022-10-26T13:59:48 EDT" name="z_submit" finished-at="2022-10-26T13:59:48 EDT" duration-ms="158" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Log in button is submitted]]>
             </line>
           </reporter-output>
-        </test-method> <!-- submit -->
+        </test-method> <!-- z_submit -->
       </class> <!-- test.HomePageTest -->
       <class name="test.InventoryPageTest">
-        <test-method signature="a_openMenu()[pri:0, instance:test.InventoryPageTest@1534f01b]" started-at="2022-10-26T00:21:29 EDT" name="a_openMenu" finished-at="2022-10-26T00:21:30 EDT" duration-ms="327" status="PASS">
+        <test-method signature="a_openMenu()[pri:0, instance:test.InventoryPageTest@5223e5ee]" started-at="2022-10-26T13:59:48 EDT" name="a_openMenu" finished-at="2022-10-26T13:59:49 EDT" duration-ms="251" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- a_openMenu -->
-        <test-method signature="about()[pri:0, instance:test.InventoryPageTest@1534f01b]" started-at="2022-10-26T00:21:30 EDT" name="about" finished-at="2022-10-26T00:21:30 EDT" duration-ms="80" status="PASS">
+        <test-method signature="about()[pri:0, instance:test.InventoryPageTest@5223e5ee]" started-at="2022-10-26T13:59:49 EDT" name="about" finished-at="2022-10-26T13:59:49 EDT" duration-ms="93" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[About text is displayed]]>
             </line>
           </reporter-output>
         </test-method> <!-- about -->
-        <test-method signature="allItems()[pri:0, instance:test.InventoryPageTest@1534f01b]" started-at="2022-10-26T00:21:30 EDT" name="allItems" finished-at="2022-10-26T00:21:30 EDT" duration-ms="46" status="PASS">
+        <test-method signature="allItems()[pri:0, instance:test.InventoryPageTest@5223e5ee]" started-at="2022-10-26T13:59:49 EDT" name="allItems" finished-at="2022-10-26T13:59:49 EDT" duration-ms="60" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[All items text is displayed]]>
             </line>
           </reporter-output>
         </test-method> <!-- allItems -->
-        <test-method signature="closeMenu()[pri:0, instance:test.InventoryPageTest@1534f01b]" started-at="2022-10-26T00:21:30 EDT" name="closeMenu" finished-at="2022-10-26T00:21:30 EDT" duration-ms="61" status="PASS">
+        <test-method signature="closeMenu()[pri:0, instance:test.InventoryPageTest@5223e5ee]" started-at="2022-10-26T13:59:49 EDT" name="closeMenu" finished-at="2022-10-26T13:59:49 EDT" duration-ms="132" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeMenu -->
-        <test-method signature="logout()[pri:0, instance:test.InventoryPageTest@1534f01b]" started-at="2022-10-26T00:21:30 EDT" name="logout" finished-at="2022-10-26T00:21:30 EDT" duration-ms="43" status="PASS">
+        <test-method signature="logout()[pri:0, instance:test.InventoryPageTest@5223e5ee]" started-at="2022-10-26T13:59:49 EDT" name="logout" finished-at="2022-10-26T13:59:49 EDT" duration-ms="49" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Logout text is displayed]]>
             </line>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method signature="resetApp()[pri:0, instance:test.InventoryPageTest@1534f01b]" started-at="2022-10-26T00:21:30 EDT" name="resetApp" finished-at="2022-10-26T00:21:30 EDT" duration-ms="46" status="PASS">
+        <test-method signature="resetApp()[pri:0, instance:test.InventoryPageTest@5223e5ee]" started-at="2022-10-26T13:59:49 EDT" name="resetApp" finished-at="2022-10-26T13:59:49 EDT" duration-ms="71" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Reset app state text is displayed]]>
             </line>
           </reporter-output>
         </test-method> <!-- resetApp -->
-        <test-method signature="z_sauceLabsBackpack()[pri:0, instance:test.InventoryPageTest@1534f01b]" started-at="2022-10-26T00:21:30 EDT" name="z_sauceLabsBackpack" finished-at="2022-10-26T00:21:30 EDT" duration-ms="134" status="PASS">
+        <test-method signature="z_sauceLabsBackpack()[pri:0, instance:test.InventoryPageTest@5223e5ee]" started-at="2022-10-26T13:59:49 EDT" name="z_sauceLabsBackpack" finished-at="2022-10-26T13:59:49 EDT" duration-ms="115" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- z_sauceLabsBackpack -->
       </class> <!-- test.InventoryPageTest -->
       <class name="test.SauceLabsBackpackPageTest">
-        <test-method signature="addToCart()[pri:0, instance:test.SauceLabsBackpackPageTest@78e117e3]" started-at="2022-10-26T00:21:30 EDT" name="addToCart" finished-at="2022-10-26T00:21:30 EDT" duration-ms="148" status="PASS">
+        <test-method signature="addToCart()[pri:0, instance:test.SauceLabsBackpackPageTest@bef2d72]" started-at="2022-10-26T13:59:49 EDT" name="addToCart" finished-at="2022-10-26T13:59:49 EDT" duration-ms="133" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Add to cart is displayed true]]>
@@ -484,7 +482,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- addToCart -->
-        <test-method signature="itemPrice()[pri:0, instance:test.SauceLabsBackpackPageTest@78e117e3]" started-at="2022-10-26T00:21:30 EDT" name="itemPrice" finished-at="2022-10-26T00:21:30 EDT" duration-ms="57" status="PASS">
+        <test-method signature="itemPrice()[pri:0, instance:test.SauceLabsBackpackPageTest@bef2d72]" started-at="2022-10-26T13:59:49 EDT" name="itemPrice" finished-at="2022-10-26T13:59:49 EDT" duration-ms="49" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Item's price is displayed true]]>
@@ -494,7 +492,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- itemPrice -->
-        <test-method signature="remove()[pri:0, instance:test.SauceLabsBackpackPageTest@78e117e3]" started-at="2022-10-26T00:21:30 EDT" name="remove" finished-at="2022-10-26T00:21:30 EDT" duration-ms="144" status="PASS">
+        <test-method signature="remove()[pri:0, instance:test.SauceLabsBackpackPageTest@bef2d72]" started-at="2022-10-26T13:59:49 EDT" name="remove" finished-at="2022-10-26T13:59:49 EDT" duration-ms="124" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Remove is displayed true]]>
@@ -510,7 +508,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- remove -->
-        <test-method signature="verifyDescription()[pri:0, instance:test.SauceLabsBackpackPageTest@78e117e3]" started-at="2022-10-26T00:21:30 EDT" name="verifyDescription" finished-at="2022-10-26T00:21:31 EDT" duration-ms="42" status="PASS">
+        <test-method signature="verifyDescription()[pri:0, instance:test.SauceLabsBackpackPageTest@bef2d72]" started-at="2022-10-26T13:59:49 EDT" name="verifyDescription" finished-at="2022-10-26T13:59:50 EDT" duration-ms="36" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Expected description = carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.]]>
@@ -520,7 +518,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyDescription -->
-        <test-method signature="verifyText()[pri:0, instance:test.SauceLabsBackpackPageTest@78e117e3]" started-at="2022-10-26T00:21:31 EDT" name="verifyText" finished-at="2022-10-26T00:21:31 EDT" duration-ms="38" status="PASS">
+        <test-method signature="verifyText()[pri:0, instance:test.SauceLabsBackpackPageTest@bef2d72]" started-at="2022-10-26T13:59:50 EDT" name="verifyText" finished-at="2022-10-26T13:59:50 EDT" duration-ms="26" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Expected text = Sauce Labs Backpack]]>
@@ -530,28 +528,28 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyText -->
-        <test-method signature="z_clickCartLink()[pri:0, instance:test.SauceLabsBackpackPageTest@78e117e3]" started-at="2022-10-26T00:21:31 EDT" name="z_clickCartLink" finished-at="2022-10-26T00:21:31 EDT" duration-ms="98" status="PASS">
+        <test-method signature="z_clickCartLink()[pri:0, instance:test.SauceLabsBackpackPageTest@bef2d72]" started-at="2022-10-26T13:59:50 EDT" name="z_clickCartLink" finished-at="2022-10-26T13:59:50 EDT" duration-ms="87" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Shopping cart link was clicked]]>
             </line>
           </reporter-output>
         </test-method> <!-- z_clickCartLink -->
-        <test-method signature="z_facebook()[pri:0, instance:test.SauceLabsBackpackPageTest@78e117e3]" started-at="2022-10-26T00:21:31 EDT" name="z_facebook" finished-at="2022-10-26T00:21:31 EDT" duration-ms="134" status="PASS">
+        <test-method signature="z_facebook()[pri:0, instance:test.SauceLabsBackpackPageTest@bef2d72]" started-at="2022-10-26T13:59:50 EDT" name="z_facebook" finished-at="2022-10-26T13:59:50 EDT" duration-ms="139" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Facebook button is displayed true]]>
             </line>
           </reporter-output>
         </test-method> <!-- z_facebook -->
-        <test-method signature="z_linkedIn()[pri:0, instance:test.SauceLabsBackpackPageTest@78e117e3]" started-at="2022-10-26T00:21:31 EDT" name="z_linkedIn" finished-at="2022-10-26T00:21:31 EDT" duration-ms="395" status="PASS">
+        <test-method signature="z_linkedIn()[pri:0, instance:test.SauceLabsBackpackPageTest@bef2d72]" started-at="2022-10-26T13:59:50 EDT" name="z_linkedIn" finished-at="2022-10-26T13:59:50 EDT" duration-ms="182" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[LinkedIn button is displayed true]]>
             </line>
           </reporter-output>
         </test-method> <!-- z_linkedIn -->
-        <test-method signature="z_twitter()[pri:0, instance:test.SauceLabsBackpackPageTest@78e117e3]" started-at="2022-10-26T00:21:31 EDT" name="z_twitter" finished-at="2022-10-26T00:21:32 EDT" duration-ms="382" status="PASS">
+        <test-method signature="z_twitter()[pri:0, instance:test.SauceLabsBackpackPageTest@bef2d72]" started-at="2022-10-26T13:59:50 EDT" name="z_twitter" finished-at="2022-10-26T13:59:50 EDT" duration-ms="250" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Twitter button is displayed true]]>

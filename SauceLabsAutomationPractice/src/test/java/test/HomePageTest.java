@@ -17,25 +17,19 @@ public class HomePageTest extends BaseTest{
 	@Test
 	public void a_loginButton() {
 		
-		
-		
 		HomePage homePage = new HomePage(driver);
 		homePage.loginButton();
 	
 	}
 	
 
-	
 	@Test
 	public void a_loginLogo() {
 		
 		HomePage homePage = new HomePage(driver);
 		homePage.loginLogo();
 		
-		
 	}
-	
-	
 	
 	
 	@Test
@@ -58,31 +52,41 @@ public class HomePageTest extends BaseTest{
 		Reporter.log(driver.getCurrentUrl());
 	}
 	
-	 
-	@Parameters({"username"})
 	 @Test
-	  public void enterUsername(String username) {
+	  public void a_usernamePasswordTextBoxInfo() {
 		 
 		
 		HomePage homePage = new HomePage(driver );
-		homePage.enterUsername(username);
+	    homePage.usernameAndPasswordTextBox();
 		
+	 }
+
+	 
+	@Parameters({"validUsername","validPassword"})
+	 @Test
+	  public void tc2(String validUsername,String validPassword) {
+		 
 		
-	
+		HomePage homePage = new HomePage(driver );
+		homePage.enterValidUsernameValidPassword(validUsername, validPassword);
+		
 	 }
 	
-	@Parameters({"password"})
-	 @Test
-	  public void enterPassword(String password) {
-		 
-		HomePage homePage = new HomePage(driver);
-		homePage.enterPassword(password);
-		
-	}
+	 
+//     @Parameters({"invalidUsername","invalidPassword"})
+//     @Test
+//     public void tc1(String invalidUsername, String invalidPassword) {
+//    	 
+//    	 
+//    	 HomePage homePage = new HomePage(driver);
+//    	 homePage.enterInvalidUsernameInvalidPassword(invalidUsername, invalidPassword);
+//     }
+     
 	
+
 	
 	 @Test
-	  public void submit() {
+	  public void z_submit() {
 		 
 		HomePage homePage = new HomePage(driver);
 		homePage.submit();
