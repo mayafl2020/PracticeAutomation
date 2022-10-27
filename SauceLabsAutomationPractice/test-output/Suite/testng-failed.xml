@@ -1,21 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <parameter name="password" value="secret_sauce"/>
   <parameter name="validFirstName" value="Mary"/>
+  <parameter name="invalidUsername" value="test123"/>
   <parameter name="validZipCode" value="33484"/>
   <parameter name="browser" value="chrome"/>
+  <parameter name="invalidPassword" value="test1234"/>
   <parameter name="validLastName" value="Smith"/>
+  <parameter name="validPassword" value="secret_sauce"/>
+  <parameter name="validUsername" value="standard_user"/>
   <parameter name="url" value="https://www.saucedemo.com"/>
-  <parameter name="username" value="standard_user"/>
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="test.SauceLabsBackpackPageTest">
+        <methods>
+          <include name="z_facebook"/>
+          <include name="itemPrice"/>
+          <include name="beforeTest"/>
+          <include name="verifyText"/>
+          <include name="z_clickCartLink"/>
+          <include name="z_linkedIn"/>
+          <include name="addToCart"/>
+          <include name="z_twitter"/>
+          <include name="verifyDescription"/>
+          <include name="remove"/>
+        </methods>
+      </class> <!-- test.SauceLabsBackpackPageTest -->
+      <class name="test.CheckoutOverviewPageTest">
+        <methods>
+          <include name="finishBtn"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- test.CheckoutOverviewPageTest -->
       <class name="test.InventoryPageTest">
         <methods>
+          <include name="tc15_sauceLabsBackpack"/>
           <include name="beforeTest"/>
-          <include name="closeMenu"/>
+          <include name="tc9a_openMenu"/>
         </methods>
       </class> <!-- test.InventoryPageTest -->
+      <class name="test.ShoppingCartPageTest">
+        <methods>
+          <include name="checkoutButton"/>
+          <include name="appLogo"/>
+          <include name="menuBtn"/>
+          <include name="beforeTest"/>
+          <include name="title"/>
+        </methods>
+      </class> <!-- test.ShoppingCartPageTest -->
+      <class name="test.CheckoutPageTest">
+        <methods>
+          <include name="checkoutForm"/>
+          <include name="validInformation" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="appLogo"/>
+          <include name="menuBtn"/>
+        </methods>
+      </class> <!-- test.CheckoutPageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

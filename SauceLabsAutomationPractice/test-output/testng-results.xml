@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="6" total="38" passed="32" failed="0" skipped="0">
+<testng-results ignored="6" total="39" passed="33" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Actual title = Swag Labs]]>
+    </line>
+    <line>
+      <![CDATA[Expected title = Swag Labs]]>
+    </line>
+    <line>
+      <![CDATA[https://www.saucedemo.com/]]>
+    </line>
     <line>
       <![CDATA[Login button size is = (346, 45)]]>
     </line>
@@ -30,15 +39,6 @@
     </line>
     <line>
       <![CDATA[Font size is = 14px]]>
-    </line>
-    <line>
-      <![CDATA[Actual title = Swag Labs]]>
-    </line>
-    <line>
-      <![CDATA[Expected title = Swag Labs]]>
-    </line>
-    <line>
-      <![CDATA[https://www.saucedemo.com/]]>
     </line>
     <line>
       <![CDATA[username size = (346, 43)]]>
@@ -74,16 +74,34 @@
       <![CDATA[Log in button is submitted]]>
     </line>
     <line>
-      <![CDATA[About text is displayed]]>
+      <![CDATA[All items text is displayed]]>
     </line>
     <line>
-      <![CDATA[All items text is displayed]]>
+      <![CDATA[About text is displayed]]>
     </line>
     <line>
       <![CDATA[Logout text is displayed]]>
     </line>
     <line>
       <![CDATA[Reset app state text is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Expected text = Sauce Labs Backpack]]>
+    </line>
+    <line>
+      <![CDATA[Actual text = Sauce Labs Backpack]]>
+    </line>
+    <line>
+      <![CDATA[Expected description = carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.]]>
+    </line>
+    <line>
+      <![CDATA[Actual description = carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.]]>
+    </line>
+    <line>
+      <![CDATA[Item's price is displayed true]]>
+    </line>
+    <line>
+      <![CDATA[Item's price is $29.99]]>
     </line>
     <line>
       <![CDATA[Add to cart is displayed true]]>
@@ -98,12 +116,6 @@
       <![CDATA[Items in cart after one click = 1]]>
     </line>
     <line>
-      <![CDATA[Item's price is displayed true]]>
-    </line>
-    <line>
-      <![CDATA[Item's price is $29.99]]>
-    </line>
-    <line>
       <![CDATA[Remove is displayed true]]>
     </line>
     <line>
@@ -116,34 +128,31 @@
       <![CDATA[Add to Cart button was clicked]]>
     </line>
     <line>
-      <![CDATA[Expected description = carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.]]>
-    </line>
-    <line>
-      <![CDATA[Actual description = carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.]]>
-    </line>
-    <line>
-      <![CDATA[Expected text = Sauce Labs Backpack]]>
-    </line>
-    <line>
-      <![CDATA[Actual text = Sauce Labs Backpack]]>
-    </line>
-    <line>
-      <![CDATA[Shopping cart link was clicked]]>
+      <![CDATA[LinkedIn button is displayed true]]>
     </line>
     <line>
       <![CDATA[Facebook button is displayed true]]>
     </line>
     <line>
-      <![CDATA[LinkedIn button is displayed true]]>
+      <![CDATA[Twitter button is displayed true]]>
     </line>
     <line>
-      <![CDATA[Twitter button is displayed true]]>
+      <![CDATA[Shopping cart link was clicked]]>
+    </line>
+    <line>
+      <![CDATA[Title text is YOUR CART]]>
+    </line>
+    <line>
+      <![CDATA[Title is displayed true]]>
     </line>
     <line>
       <![CDATA[Logo is displayed true]]>
     </line>
     <line>
       <![CDATA[Logo color is rgba(72, 76, 85, 1)]]>
+    </line>
+    <line>
+      <![CDATA[Menu button is displayed true]]>
     </line>
     <line>
       <![CDATA[Checkout button color is rgba(255, 255, 255, 1)]]>
@@ -158,19 +167,13 @@
       <![CDATA[Checkout button is displayed  true]]>
     </line>
     <line>
-      <![CDATA[Menu button is displayed true]]>
-    </line>
-    <line>
-      <![CDATA[Title text is CHECKOUT: YOUR INFORMATION]]>
-    </line>
-    <line>
-      <![CDATA[Title is displayed true]]>
-    </line>
-    <line>
       <![CDATA[Logo is displayed true]]>
     </line>
     <line>
       <![CDATA[Logo color is rgba(72, 76, 85, 1)]]>
+    </line>
+    <line>
+      <![CDATA[Menu button is displayed true]]>
     </line>
     <line>
       <![CDATA[First name is displayed true]]>
@@ -181,22 +184,23 @@
     <line>
       <![CDATA[ZipCode is displayed true]]>
     </line>
-    <line>
-      <![CDATA[Menu button is displayed true]]>
-    </line>
   </reporter-output>
-  <suite started-at="2022-10-26T13:59:44 EDT" name="Suite" finished-at="2022-10-26T13:59:52 EDT" duration-ms="8368">
+  <suite started-at="2022-10-27T02:00:06 EDT" name="Suite" finished-at="2022-10-27T02:00:14 EDT" duration-ms="8399">
     <groups>
     </groups>
-    <test started-at="2022-10-26T13:59:44 EDT" name="Test" finished-at="2022-10-26T13:59:52 EDT" duration-ms="8368">
-      <class name="test.CheckoutOverviewPageTest">
-        <test-method signature="finishBtn()[pri:0, instance:test.CheckoutOverviewPageTest@6fe7aac8]" started-at="2022-10-26T13:59:52 EDT" name="finishBtn" finished-at="2022-10-26T13:59:52 EDT" duration-ms="201" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- finishBtn -->
-      </class> <!-- test.CheckoutOverviewPageTest -->
+    <test started-at="2022-10-27T02:00:06 EDT" name="Test" finished-at="2022-10-27T02:00:14 EDT" duration-ms="8399">
       <class name="test.ShoppingCartPageTest">
-        <test-method signature="appLogo()[pri:0, instance:test.ShoppingCartPageTest@69b2283a]" started-at="2022-10-26T13:59:50 EDT" name="appLogo" finished-at="2022-10-26T13:59:50 EDT" duration-ms="102" status="PASS">
+        <test-method signature="tc25_title()[pri:0, instance:test.ShoppingCartPageTest@79b06cab]" started-at="2022-10-27T02:00:12 EDT" name="tc25_title" finished-at="2022-10-27T02:00:12 EDT" duration-ms="185" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Title text is YOUR CART]]>
+            </line>
+            <line>
+              <![CDATA[Title is displayed true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc25_title -->
+        <test-method signature="tc26_appLogo()[pri:0, instance:test.ShoppingCartPageTest@79b06cab]" started-at="2022-10-27T02:00:12 EDT" name="tc26_appLogo" finished-at="2022-10-27T02:00:12 EDT" duration-ms="68" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Logo is displayed true]]>
@@ -205,8 +209,15 @@
               <![CDATA[Logo color is rgba(72, 76, 85, 1)]]>
             </line>
           </reporter-output>
-        </test-method> <!-- appLogo -->
-        <test-method signature="checkoutButton()[pri:0, instance:test.ShoppingCartPageTest@69b2283a]" started-at="2022-10-26T13:59:50 EDT" name="checkoutButton" finished-at="2022-10-26T13:59:51 EDT" duration-ms="373" status="PASS">
+        </test-method> <!-- tc26_appLogo -->
+        <test-method signature="tc27_menuBtn()[pri:0, instance:test.ShoppingCartPageTest@79b06cab]" started-at="2022-10-27T02:00:12 EDT" name="tc27_menuBtn" finished-at="2022-10-27T02:00:13 EDT" duration-ms="83" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Menu button is displayed true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc27_menuBtn -->
+        <test-method signature="tc28_checkoutButton()[pri:0, instance:test.ShoppingCartPageTest@79b06cab]" started-at="2022-10-27T02:00:13 EDT" name="tc28_checkoutButton" finished-at="2022-10-27T02:00:13 EDT" duration-ms="282" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Checkout button color is rgba(255, 255, 255, 1)]]>
@@ -221,80 +232,10 @@
               <![CDATA[Checkout button is displayed  true]]>
             </line>
           </reporter-output>
-        </test-method> <!-- checkoutButton -->
-        <test-method signature="menuBtn()[pri:0, instance:test.ShoppingCartPageTest@69b2283a]" started-at="2022-10-26T13:59:51 EDT" name="menuBtn" finished-at="2022-10-26T13:59:51 EDT" duration-ms="77" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Menu button is displayed true]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- menuBtn -->
-        <test-method signature="title()[pri:0, instance:test.ShoppingCartPageTest@69b2283a]" started-at="2022-10-26T13:59:51 EDT" name="title" finished-at="2022-10-26T13:59:51 EDT" duration-ms="118" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Title text is CHECKOUT: YOUR INFORMATION]]>
-            </line>
-            <line>
-              <![CDATA[Title is displayed true]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- title -->
+        </test-method> <!-- tc28_checkoutButton -->
       </class> <!-- test.ShoppingCartPageTest -->
-      <class name="test.CheckoutPageTest">
-        <test-method signature="appLogo()[pri:0, instance:test.CheckoutPageTest@22a637e7]" started-at="2022-10-26T13:59:51 EDT" name="appLogo" finished-at="2022-10-26T13:59:51 EDT" duration-ms="68" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Logo is displayed true]]>
-            </line>
-            <line>
-              <![CDATA[Logo color is rgba(72, 76, 85, 1)]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- appLogo -->
-        <test-method signature="checkoutForm()[pri:0, instance:test.CheckoutPageTest@22a637e7]" started-at="2022-10-26T13:59:51 EDT" name="checkoutForm" finished-at="2022-10-26T13:59:51 EDT" duration-ms="115" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[First name is displayed true]]>
-            </line>
-            <line>
-              <![CDATA[Last name is displayed true]]>
-            </line>
-            <line>
-              <![CDATA[ZipCode is displayed true]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- checkoutForm -->
-        <test-method signature="menuBtn()[pri:0, instance:test.CheckoutPageTest@22a637e7]" started-at="2022-10-26T13:59:51 EDT" name="menuBtn" finished-at="2022-10-26T13:59:51 EDT" duration-ms="39" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Menu button is displayed true]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- menuBtn -->
-        <test-method signature="validInformation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.CheckoutPageTest@22a637e7]" started-at="2022-10-26T13:59:51 EDT" name="validInformation" finished-at="2022-10-26T13:59:52 EDT" duration-ms="1030" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Mary]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Smith]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[33484]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validInformation -->
-      </class> <!-- test.CheckoutPageTest -->
       <class name="test.HomePageTest">
-        <test-method is-config="true" signature="beforeTest(java.lang.String,java.lang.String)[pri:0, instance:test.HomePageTest@ef9296d]" started-at="2022-10-26T13:59:44 EDT" name="beforeTest" finished-at="2022-10-26T13:59:48 EDT" duration-ms="3532" status="PASS">
+        <test-method is-config="true" signature="beforeTest(java.lang.String,java.lang.String)[pri:0, instance:test.HomePageTest@433d61fb]" started-at="2022-10-27T02:00:06 EDT" name="beforeTest" finished-at="2022-10-27T02:00:09 EDT" duration-ms="3382" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -310,7 +251,24 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="a_loginButton()[pri:0, instance:test.HomePageTest@ef9296d]" started-at="2022-10-26T13:59:48 EDT" name="a_loginButton" finished-at="2022-10-26T13:59:48 EDT" duration-ms="145" status="PASS">
+        <test-method signature="tc1_titleValidation()[pri:0, instance:test.HomePageTest@433d61fb]" started-at="2022-10-27T02:00:09 EDT" name="tc1_titleValidation" finished-at="2022-10-27T02:00:09 EDT" duration-ms="22" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Actual title = Swag Labs]]>
+            </line>
+            <line>
+              <![CDATA[Expected title = Swag Labs]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc1_titleValidation -->
+        <test-method signature="tc2_urlVerification()[pri:0, instance:test.HomePageTest@433d61fb]" started-at="2022-10-27T02:00:09 EDT" name="tc2_urlVerification" finished-at="2022-10-27T02:00:09 EDT" duration-ms="18" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[https://www.saucedemo.com/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc2_urlVerification -->
+        <test-method signature="tc3_loginButton()[pri:0, instance:test.HomePageTest@433d61fb]" started-at="2022-10-27T02:00:09 EDT" name="tc3_loginButton" finished-at="2022-10-27T02:00:09 EDT" duration-ms="124" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Login button size is = (346, 45)]]>
@@ -328,8 +286,8 @@
               <![CDATA[Login logo location is = (360, 323)]]>
             </line>
           </reporter-output>
-        </test-method> <!-- a_loginButton -->
-        <test-method signature="a_loginLogo()[pri:0, instance:test.HomePageTest@ef9296d]" started-at="2022-10-26T13:59:48 EDT" name="a_loginLogo" finished-at="2022-10-26T13:59:48 EDT" duration-ms="86" status="PASS">
+        </test-method> <!-- tc3_loginButton -->
+        <test-method signature="tc4_loginLogo()[pri:0, instance:test.HomePageTest@433d61fb]" started-at="2022-10-27T02:00:09 EDT" name="tc4_loginLogo" finished-at="2022-10-27T02:00:09 EDT" duration-ms="67" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Login logo size = (1440, 60)]]>
@@ -347,25 +305,8 @@
               <![CDATA[Font size is = 14px]]>
             </line>
           </reporter-output>
-        </test-method> <!-- a_loginLogo -->
-        <test-method signature="a_titleValidation()[pri:0, instance:test.HomePageTest@ef9296d]" started-at="2022-10-26T13:59:48 EDT" name="a_titleValidation" finished-at="2022-10-26T13:59:48 EDT" duration-ms="14" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Actual title = Swag Labs]]>
-            </line>
-            <line>
-              <![CDATA[Expected title = Swag Labs]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- a_titleValidation -->
-        <test-method signature="a_urlVerification()[pri:0, instance:test.HomePageTest@ef9296d]" started-at="2022-10-26T13:59:48 EDT" name="a_urlVerification" finished-at="2022-10-26T13:59:48 EDT" duration-ms="12" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[https://www.saucedemo.com/]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- a_urlVerification -->
-        <test-method signature="a_usernamePasswordTextBoxInfo()[pri:0, instance:test.HomePageTest@ef9296d]" started-at="2022-10-26T13:59:48 EDT" name="a_usernamePasswordTextBoxInfo" finished-at="2022-10-26T13:59:48 EDT" duration-ms="133" status="PASS">
+        </test-method> <!-- tc4_loginLogo -->
+        <test-method signature="tc5_usernamePasswordTextBoxInfo()[pri:0, instance:test.HomePageTest@433d61fb]" started-at="2022-10-27T02:00:09 EDT" name="tc5_usernamePasswordTextBoxInfo" finished-at="2022-10-27T02:00:09 EDT" duration-ms="130" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[username size = (346, 43)]]>
@@ -398,8 +339,24 @@
               <![CDATA[password font size is = 18px]]>
             </line>
           </reporter-output>
-        </test-method> <!-- a_usernamePasswordTextBoxInfo -->
-        <test-method signature="tc2(java.lang.String,java.lang.String)[pri:0, instance:test.HomePageTest@ef9296d]" started-at="2022-10-26T13:59:48 EDT" name="tc2" finished-at="2022-10-26T13:59:48 EDT" duration-ms="227" status="PASS">
+        </test-method> <!-- tc5_usernamePasswordTextBoxInfo -->
+        <test-method signature="tc6_InvalidUsernameInvalidPassword(java.lang.String,java.lang.String)[pri:0, instance:test.HomePageTest@433d61fb]" started-at="2022-10-27T02:00:09 EDT" name="tc6_InvalidUsernameInvalidPassword" finished-at="2022-10-27T02:00:10 EDT" duration-ms="537" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc6_InvalidUsernameInvalidPassword -->
+        <test-method signature="tc7_ValidUsernameValidPassword(java.lang.String,java.lang.String)[pri:0, instance:test.HomePageTest@433d61fb]" started-at="2022-10-27T02:00:10 EDT" name="tc7_ValidUsernameValidPassword" finished-at="2022-10-27T02:00:10 EDT" duration-ms="263" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -414,59 +371,148 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc2 -->
-        <test-method signature="z_submit()[pri:0, instance:test.HomePageTest@ef9296d]" started-at="2022-10-26T13:59:48 EDT" name="z_submit" finished-at="2022-10-26T13:59:48 EDT" duration-ms="158" status="PASS">
+        </test-method> <!-- tc7_ValidUsernameValidPassword -->
+        <test-method signature="tc8_submit()[pri:0, instance:test.HomePageTest@433d61fb]" started-at="2022-10-27T02:00:10 EDT" name="tc8_submit" finished-at="2022-10-27T02:00:10 EDT" duration-ms="164" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Log in button is submitted]]>
             </line>
           </reporter-output>
-        </test-method> <!-- z_submit -->
+        </test-method> <!-- tc8_submit -->
       </class> <!-- test.HomePageTest -->
       <class name="test.InventoryPageTest">
-        <test-method signature="a_openMenu()[pri:0, instance:test.InventoryPageTest@5223e5ee]" started-at="2022-10-26T13:59:48 EDT" name="a_openMenu" finished-at="2022-10-26T13:59:49 EDT" duration-ms="251" status="PASS">
+        <test-method signature="a_tc9openMenu()[pri:0, instance:test.InventoryPageTest@363ee3a2]" started-at="2022-10-27T02:00:10 EDT" name="a_tc9openMenu" finished-at="2022-10-27T02:00:11 EDT" duration-ms="275" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- a_openMenu -->
-        <test-method signature="about()[pri:0, instance:test.InventoryPageTest@5223e5ee]" started-at="2022-10-26T13:59:49 EDT" name="about" finished-at="2022-10-26T13:59:49 EDT" duration-ms="93" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[About text is displayed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- about -->
-        <test-method signature="allItems()[pri:0, instance:test.InventoryPageTest@5223e5ee]" started-at="2022-10-26T13:59:49 EDT" name="allItems" finished-at="2022-10-26T13:59:49 EDT" duration-ms="60" status="PASS">
+        </test-method> <!-- a_tc9openMenu -->
+        <test-method signature="tc10_allItems()[pri:0, instance:test.InventoryPageTest@363ee3a2]" started-at="2022-10-27T02:00:11 EDT" name="tc10_allItems" finished-at="2022-10-27T02:00:11 EDT" duration-ms="92" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[All items text is displayed]]>
             </line>
           </reporter-output>
-        </test-method> <!-- allItems -->
-        <test-method signature="closeMenu()[pri:0, instance:test.InventoryPageTest@5223e5ee]" started-at="2022-10-26T13:59:49 EDT" name="closeMenu" finished-at="2022-10-26T13:59:49 EDT" duration-ms="132" status="PASS">
+        </test-method> <!-- tc10_allItems -->
+        <test-method signature="tc11_about()[pri:0, instance:test.InventoryPageTest@363ee3a2]" started-at="2022-10-27T02:00:11 EDT" name="tc11_about" finished-at="2022-10-27T02:00:11 EDT" duration-ms="48" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[About text is displayed]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- closeMenu -->
-        <test-method signature="logout()[pri:0, instance:test.InventoryPageTest@5223e5ee]" started-at="2022-10-26T13:59:49 EDT" name="logout" finished-at="2022-10-26T13:59:49 EDT" duration-ms="49" status="PASS">
+        </test-method> <!-- tc11_about -->
+        <test-method signature="tc12_logout()[pri:0, instance:test.InventoryPageTest@363ee3a2]" started-at="2022-10-27T02:00:11 EDT" name="tc12_logout" finished-at="2022-10-27T02:00:11 EDT" duration-ms="34" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Logout text is displayed]]>
             </line>
           </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method signature="resetApp()[pri:0, instance:test.InventoryPageTest@5223e5ee]" started-at="2022-10-26T13:59:49 EDT" name="resetApp" finished-at="2022-10-26T13:59:49 EDT" duration-ms="71" status="PASS">
+        </test-method> <!-- tc12_logout -->
+        <test-method signature="tc13_resetApp()[pri:0, instance:test.InventoryPageTest@363ee3a2]" started-at="2022-10-27T02:00:11 EDT" name="tc13_resetApp" finished-at="2022-10-27T02:00:11 EDT" duration-ms="35" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Reset app state text is displayed]]>
             </line>
           </reporter-output>
-        </test-method> <!-- resetApp -->
-        <test-method signature="z_sauceLabsBackpack()[pri:0, instance:test.InventoryPageTest@5223e5ee]" started-at="2022-10-26T13:59:49 EDT" name="z_sauceLabsBackpack" finished-at="2022-10-26T13:59:49 EDT" duration-ms="115" status="PASS">
+        </test-method> <!-- tc13_resetApp -->
+        <test-method signature="tc14_closeMenu()[pri:0, instance:test.InventoryPageTest@363ee3a2]" started-at="2022-10-27T02:00:11 EDT" name="tc14_closeMenu" finished-at="2022-10-27T02:00:11 EDT" duration-ms="57" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- z_sauceLabsBackpack -->
+        </test-method> <!-- tc14_closeMenu -->
+        <test-method signature="tc15_sauceLabsBackpack()[pri:0, instance:test.InventoryPageTest@363ee3a2]" started-at="2022-10-27T02:00:11 EDT" name="tc15_sauceLabsBackpack" finished-at="2022-10-27T02:00:11 EDT" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc15_sauceLabsBackpack -->
       </class> <!-- test.InventoryPageTest -->
+      <class name="test.TestCheckoutPage">
+        <test-method signature="tc29_appLogo()[pri:0, instance:test.TestCheckoutPage@3eb7fc54]" started-at="2022-10-27T02:00:13 EDT" name="tc29_appLogo" finished-at="2022-10-27T02:00:13 EDT" duration-ms="146" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logo is displayed true]]>
+            </line>
+            <line>
+              <![CDATA[Logo color is rgba(72, 76, 85, 1)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc29_appLogo -->
+        <test-method signature="tc30_menuBtn()[pri:0, instance:test.TestCheckoutPage@3eb7fc54]" started-at="2022-10-27T02:00:13 EDT" name="tc30_menuBtn" finished-at="2022-10-27T02:00:13 EDT" duration-ms="61" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Menu button is displayed true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc30_menuBtn -->
+        <test-method signature="tc31_checkoutForm()[pri:0, instance:test.TestCheckoutPage@3eb7fc54]" started-at="2022-10-27T02:00:13 EDT" name="tc31_checkoutForm" finished-at="2022-10-27T02:00:13 EDT" duration-ms="163" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[First name is displayed true]]>
+            </line>
+            <line>
+              <![CDATA[Last name is displayed true]]>
+            </line>
+            <line>
+              <![CDATA[ZipCode is displayed true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc31_checkoutForm -->
+        <test-method signature="tc32_validInformation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TestCheckoutPage@3eb7fc54]" started-at="2022-10-27T02:00:13 EDT" name="tc32_validInformation" finished-at="2022-10-27T02:00:14 EDT" duration-ms="602" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mary]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Smith]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[33484]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc32_validInformation -->
+      </class> <!-- test.TestCheckoutPage -->
+      <class name="test.TestCheckoutPageOverview">
+        <test-method signature="tc33_finishBtn()[pri:0, instance:test.TestCheckoutPageOverview@7f552bd3]" started-at="2022-10-27T02:00:14 EDT" name="tc33_finishBtn" finished-at="2022-10-27T02:00:14 EDT" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc33_finishBtn -->
+      </class> <!-- test.TestCheckoutPageOverview -->
       <class name="test.SauceLabsBackpackPageTest">
-        <test-method signature="addToCart()[pri:0, instance:test.SauceLabsBackpackPageTest@bef2d72]" started-at="2022-10-26T13:59:49 EDT" name="addToCart" finished-at="2022-10-26T13:59:49 EDT" duration-ms="133" status="PASS">
+        <test-method signature="tc16_verifyText()[pri:0, instance:test.SauceLabsBackpackPageTest@4690b489]" started-at="2022-10-27T02:00:11 EDT" name="tc16_verifyText" finished-at="2022-10-27T02:00:11 EDT" duration-ms="35" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Expected text = Sauce Labs Backpack]]>
+            </line>
+            <line>
+              <![CDATA[Actual text = Sauce Labs Backpack]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc16_verifyText -->
+        <test-method signature="tc17_verifyDescription()[pri:0, instance:test.SauceLabsBackpackPageTest@4690b489]" started-at="2022-10-27T02:00:11 EDT" name="tc17_verifyDescription" finished-at="2022-10-27T02:00:11 EDT" duration-ms="40" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Expected description = carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.]]>
+            </line>
+            <line>
+              <![CDATA[Actual description = carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc17_verifyDescription -->
+        <test-method signature="tc18_itemPrice()[pri:0, instance:test.SauceLabsBackpackPageTest@4690b489]" started-at="2022-10-27T02:00:11 EDT" name="tc18_itemPrice" finished-at="2022-10-27T02:00:11 EDT" duration-ms="53" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Item's price is displayed true]]>
+            </line>
+            <line>
+              <![CDATA[Item's price is $29.99]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc18_itemPrice -->
+        <test-method signature="tc19_addToCart()[pri:0, instance:test.SauceLabsBackpackPageTest@4690b489]" started-at="2022-10-27T02:00:11 EDT" name="tc19_addToCart" finished-at="2022-10-27T02:00:11 EDT" duration-ms="110" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Add to cart is displayed true]]>
@@ -481,18 +527,8 @@
               <![CDATA[Items in cart after one click = 1]]>
             </line>
           </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method signature="itemPrice()[pri:0, instance:test.SauceLabsBackpackPageTest@bef2d72]" started-at="2022-10-26T13:59:49 EDT" name="itemPrice" finished-at="2022-10-26T13:59:49 EDT" duration-ms="49" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Item's price is displayed true]]>
-            </line>
-            <line>
-              <![CDATA[Item's price is $29.99]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- itemPrice -->
-        <test-method signature="remove()[pri:0, instance:test.SauceLabsBackpackPageTest@bef2d72]" started-at="2022-10-26T13:59:49 EDT" name="remove" finished-at="2022-10-26T13:59:49 EDT" duration-ms="124" status="PASS">
+        </test-method> <!-- tc19_addToCart -->
+        <test-method signature="tc20_remove()[pri:0, instance:test.SauceLabsBackpackPageTest@4690b489]" started-at="2022-10-27T02:00:11 EDT" name="tc20_remove" finished-at="2022-10-27T02:00:11 EDT" duration-ms="127" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Remove is displayed true]]>
@@ -507,55 +543,35 @@
               <![CDATA[Add to Cart button was clicked]]>
             </line>
           </reporter-output>
-        </test-method> <!-- remove -->
-        <test-method signature="verifyDescription()[pri:0, instance:test.SauceLabsBackpackPageTest@bef2d72]" started-at="2022-10-26T13:59:49 EDT" name="verifyDescription" finished-at="2022-10-26T13:59:50 EDT" duration-ms="36" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Expected description = carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.]]>
-            </line>
-            <line>
-              <![CDATA[Actual description = carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verifyDescription -->
-        <test-method signature="verifyText()[pri:0, instance:test.SauceLabsBackpackPageTest@bef2d72]" started-at="2022-10-26T13:59:50 EDT" name="verifyText" finished-at="2022-10-26T13:59:50 EDT" duration-ms="26" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Expected text = Sauce Labs Backpack]]>
-            </line>
-            <line>
-              <![CDATA[Actual text = Sauce Labs Backpack]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verifyText -->
-        <test-method signature="z_clickCartLink()[pri:0, instance:test.SauceLabsBackpackPageTest@bef2d72]" started-at="2022-10-26T13:59:50 EDT" name="z_clickCartLink" finished-at="2022-10-26T13:59:50 EDT" duration-ms="87" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Shopping cart link was clicked]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- z_clickCartLink -->
-        <test-method signature="z_facebook()[pri:0, instance:test.SauceLabsBackpackPageTest@bef2d72]" started-at="2022-10-26T13:59:50 EDT" name="z_facebook" finished-at="2022-10-26T13:59:50 EDT" duration-ms="139" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Facebook button is displayed true]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- z_facebook -->
-        <test-method signature="z_linkedIn()[pri:0, instance:test.SauceLabsBackpackPageTest@bef2d72]" started-at="2022-10-26T13:59:50 EDT" name="z_linkedIn" finished-at="2022-10-26T13:59:50 EDT" duration-ms="182" status="PASS">
+        </test-method> <!-- tc20_remove -->
+        <test-method signature="tc21_linkedIn()[pri:0, instance:test.SauceLabsBackpackPageTest@4690b489]" started-at="2022-10-27T02:00:11 EDT" name="tc21_linkedIn" finished-at="2022-10-27T02:00:12 EDT" duration-ms="158" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[LinkedIn button is displayed true]]>
             </line>
           </reporter-output>
-        </test-method> <!-- z_linkedIn -->
-        <test-method signature="z_twitter()[pri:0, instance:test.SauceLabsBackpackPageTest@bef2d72]" started-at="2022-10-26T13:59:50 EDT" name="z_twitter" finished-at="2022-10-26T13:59:50 EDT" duration-ms="250" status="PASS">
+        </test-method> <!-- tc21_linkedIn -->
+        <test-method signature="tc22_facebook()[pri:0, instance:test.SauceLabsBackpackPageTest@4690b489]" started-at="2022-10-27T02:00:12 EDT" name="tc22_facebook" finished-at="2022-10-27T02:00:12 EDT" duration-ms="202" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Facebook button is displayed true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc22_facebook -->
+        <test-method signature="tc23_twitter()[pri:0, instance:test.SauceLabsBackpackPageTest@4690b489]" started-at="2022-10-27T02:00:12 EDT" name="tc23_twitter" finished-at="2022-10-27T02:00:12 EDT" duration-ms="232" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Twitter button is displayed true]]>
             </line>
           </reporter-output>
-        </test-method> <!-- z_twitter -->
+        </test-method> <!-- tc23_twitter -->
+        <test-method signature="tc24_clickCartLink()[pri:0, instance:test.SauceLabsBackpackPageTest@4690b489]" started-at="2022-10-27T02:00:12 EDT" name="tc24_clickCartLink" finished-at="2022-10-27T02:00:12 EDT" duration-ms="135" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Shopping cart link was clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc24_clickCartLink -->
       </class> <!-- test.SauceLabsBackpackPageTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

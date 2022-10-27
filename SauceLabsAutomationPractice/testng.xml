@@ -23,8 +23,8 @@
 			<class name="test.AboutPageTest"></class>
 			<class name="test.SauceLabsBackpackPageTest"></class>
 			<class name="test.ShoppingCartPageTest"></class>
-			<class name="test.CheckoutPageTest"></class>
-			<class name="test.CheckoutOverviewPageTest"></class>
+			<class name="test.TestCheckoutPage"></class>
+			<class name="test.TestCheckoutPageOverview"></class>
 
 		</classes>
 	</test> <!-- Test -->

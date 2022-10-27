@@ -10,88 +10,78 @@ import org.testng.annotations.Test;
 import pom.HomePage;
 import utilities.Common;
 
-public class HomePageTest extends BaseTest{
-	
-
-	
-	@Test
-	public void a_loginButton() {
-		
-		HomePage homePage = new HomePage(driver);
-		homePage.loginButton();
-	
-	}
-	
+public class HomePageTest extends BaseTest {
 
 	@Test
-	public void a_loginLogo() {
-		
-		HomePage homePage = new HomePage(driver);
-		homePage.loginLogo();
-		
-	}
-	
-	
-	@Test
 
-	public void a_titleValidation() {
-		
-		
+	public void tc1_titleValidation() {
+
 		String expectedTitle = "Swag Labs";
 		String actualTitle = driver.getTitle();
-		
+
 		assertTrue(expectedTitle.equalsIgnoreCase(actualTitle));
 		Reporter.log("Actual title = " + actualTitle);
 		Reporter.log("Expected title = " + expectedTitle);
-		
+
 	}
-	
+
 	@Test
-	public void a_urlVerification() {
-		
+	public void tc2_urlVerification() {
+
 		Reporter.log(driver.getCurrentUrl());
 	}
-	
-	 @Test
-	  public void a_usernamePasswordTextBoxInfo() {
-		 
-		
-		HomePage homePage = new HomePage(driver );
-	    homePage.usernameAndPasswordTextBox();
-		
-	 }
 
-	 
-	@Parameters({"validUsername","validPassword"})
-	 @Test
-	  public void tc2(String validUsername,String validPassword) {
-		 
-		
-		HomePage homePage = new HomePage(driver );
+	@Test
+	public void tc3_loginButton() {
+
+		HomePage homePage = new HomePage(driver);
+		homePage.loginButton();
+
+	}
+
+	@Test
+	public void tc4_loginLogo() {
+
+		HomePage homePage = new HomePage(driver);
+		homePage.loginLogo();
+
+	}
+
+	@Test
+	public void tc5_usernamePasswordTextBoxInfo() {
+
+		HomePage homePage = new HomePage(driver);
+		homePage.usernameAndPasswordTextBox();
+
+	}
+	
+	  @Parameters({"invalidUsername","invalidPassword"})
+	     @Test
+	     public void tc6_InvalidUsernameInvalidPassword(String invalidUsername, String invalidPassword) {
+	    	 
+	    	 
+	    	 HomePage homePage = new HomePage(driver);
+	    	 homePage.enterInvalidUsernameInvalidPassword(invalidUsername, invalidPassword);
+	     }
+
+	@Parameters({ "validUsername", "validPassword" })
+	@Test
+	public void tc7_ValidUsernameValidPassword(String validUsername, String validPassword) {
+
+		HomePage homePage = new HomePage(driver);
 		homePage.enterValidUsernameValidPassword(validUsername, validPassword);
-		
-	 }
-	
-	 
-//     @Parameters({"invalidUsername","invalidPassword"})
-//     @Test
-//     public void tc1(String invalidUsername, String invalidPassword) {
-//    	 
-//    	 
-//    	 HomePage homePage = new HomePage(driver);
-//    	 homePage.enterInvalidUsernameInvalidPassword(invalidUsername, invalidPassword);
-//     }
-     
-	
 
-	
-	 @Test
-	  public void z_submit() {
-		 
+	}
+
+   
+
+	@Test
+	public void tc8_submit() {
+
 		HomePage homePage = new HomePage(driver);
 		homePage.submit();
 		Reporter.log("Log in button is submitted");
-		
+
 	}
-	 
+
 }

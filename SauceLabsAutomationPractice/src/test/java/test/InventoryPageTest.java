@@ -9,7 +9,7 @@ public class InventoryPageTest extends BaseTest {
 	
 	
 	 @Test
-  public void a_openMenu() {
+  public void a_tc9openMenu() {
 	  
 	 InventoryPage inventory = new InventoryPage(driver);
      inventory.openMenu();
@@ -19,7 +19,7 @@ public class InventoryPageTest extends BaseTest {
 	  
 	  @Test
 	  
-	  public void allItems() {
+	  public void tc10_allItems() {
 		
 		  InventoryPage inventory = new InventoryPage(driver);
 		  inventory.allItems();
@@ -29,7 +29,7 @@ public class InventoryPageTest extends BaseTest {
 	  
 	  @Test
 	  
-	  public void about () {
+	  public void tc11_about () {
 		
 		  InventoryPage inventory = new InventoryPage(driver);
 		  inventory.about();
@@ -39,7 +39,7 @@ public class InventoryPageTest extends BaseTest {
 	  
 	  @Test
 	  
-	  public void logout() {
+	  public void tc12_logout() {
 		
 		  InventoryPage inventory = new InventoryPage(driver);
 		  inventory.logout();
@@ -49,7 +49,7 @@ public class InventoryPageTest extends BaseTest {
 	  
 	  @Test
 	  
-	  public void resetApp() {
+	  public void tc13_resetApp() {
 		
 		  InventoryPage inventory = new InventoryPage(driver);
 		  inventory.reset();
@@ -68,14 +68,14 @@ public class InventoryPageTest extends BaseTest {
 
 	  @Test
 	  
-	  public void closeMenu() {
+	  public void tc14_closeMenu() {
 		  
 		  InventoryPage inventory = new InventoryPage(driver);
 		  inventory.closeMenu();
 	  }
 	  
 	  @Test
-	  public void z_sauceLabsBackpack() {
+	  public void tc15_sauceLabsBackpack() {
 		  
 		  InventoryPage inventory = new InventoryPage(driver);
 		  inventory.sauceLabsBackpack();

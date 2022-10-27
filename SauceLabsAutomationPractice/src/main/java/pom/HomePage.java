@@ -29,6 +29,10 @@ public class HomePage {
 	@FindBy(className = "login_logo")
 	WebElement loginLogo;
 
+	@CacheLookup
+	@FindBy(className="error-button")
+	WebElement errorBttn;
+
 	public HomePage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
@@ -108,8 +112,16 @@ public class HomePage {
 
 		userName.sendKeys(invalidUsername);
 		pswrd.sendKeys(invalidPassword);
-		pswrd.clear();
-		userName.clear();
+		
+		loginBttn.click();
+
+//		String errorText = errorBttn.getAccessibleName();
+//		Reporter.log("After invalid username and invalid password entered error text is = " + errorText);
+
+		
+		driver.navigate().refresh();
+
+
 
 	}
 

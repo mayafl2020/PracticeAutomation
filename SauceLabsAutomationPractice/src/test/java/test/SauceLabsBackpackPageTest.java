@@ -7,14 +7,14 @@ import pom.SauceLabsBackpackPage;
 public class SauceLabsBackpackPageTest extends BaseTest{
 	
 	@Test
-	public void verifyText() {
+	public void tc16_verifyText() {
 		
 		SauceLabsBackpackPage sauceLabs = new SauceLabsBackpackPage(driver);
 		sauceLabs.verifyText();
 	}
 	
 	@Test
-	public void verifyDescription() {
+	public void tc17_verifyDescription() {
 		
 		SauceLabsBackpackPage sauceLabs = new SauceLabsBackpackPage(driver);
 		sauceLabs.verifyDescription();
@@ -22,7 +22,7 @@ public class SauceLabsBackpackPageTest extends BaseTest{
 	}
 	
 	@Test
-	public void itemPrice() {
+	public void tc18_itemPrice() {
 		
 		SauceLabsBackpackPage sauceLabs = new SauceLabsBackpackPage(driver);
 		sauceLabs.itemPrice();
@@ -30,22 +30,29 @@ public class SauceLabsBackpackPageTest extends BaseTest{
 
 	
 	@Test
-	public void addToCart() {
+	public void tc19_addToCart() {
 		
 		SauceLabsBackpackPage sauceLabs = new SauceLabsBackpackPage(driver);
 		sauceLabs.addToCart();
 	}
 	
+	@Test
+	public void tc20_remove() {
+		
+		SauceLabsBackpackPage sauceLabs = new SauceLabsBackpackPage(driver);
+		sauceLabs.remove();
+	}
+	
 
 	@Test
-	public void z_linkedIn() {
+	public void tc21_linkedIn() {
 		
 		SauceLabsBackpackPage sauceLabs = new SauceLabsBackpackPage(driver);
 		sauceLabs.linkedIn();
 	}
 	
 	@Test
-	public void z_facebook() {
+	public void tc22_facebook() {
 		
 		SauceLabsBackpackPage sauceLabs = new SauceLabsBackpackPage(driver);
 		sauceLabs.facebook();
@@ -53,22 +60,17 @@ public class SauceLabsBackpackPageTest extends BaseTest{
 	
 
 	@Test
-	public void z_twitter() {
+	public void tc23_twitter() {
 		
 		SauceLabsBackpackPage sauceLabs = new SauceLabsBackpackPage(driver);
 		sauceLabs.twitter();
 	}
 	
 
-	@Test
-	public void remove() {
-		
-		SauceLabsBackpackPage sauceLabs = new SauceLabsBackpackPage(driver);
-		sauceLabs.remove();
-	}
+	
 	
 	@Test
-	public void z_clickCartLink() {
+	public void tc24_clickCartLink() {
 		
 		SauceLabsBackpackPage sauceLabs = new SauceLabsBackpackPage(driver);
 		sauceLabs.clickCartLink();

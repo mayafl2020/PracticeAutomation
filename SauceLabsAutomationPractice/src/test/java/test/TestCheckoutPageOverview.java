@@ -4,10 +4,10 @@ import org.testng.annotations.Test;
 
 import pom.CheckoutOverviewPage;
 
-public class CheckoutOverviewPageTest extends BaseTest{
+public class TestCheckoutPageOverview extends BaseTest{
 	
 	@Test
-	public void finishBtn() {
+	public void tc33_finishBtn() {
 		
 		CheckoutOverviewPage finish = new CheckoutOverviewPage(driver);
 		finish.finishBtn();

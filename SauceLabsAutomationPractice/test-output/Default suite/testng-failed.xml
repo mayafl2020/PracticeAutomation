@@ -5,8 +5,14 @@
     <classes>
       <class name="test.InventoryPageTest">
         <methods>
+          <include name="tc15_sauceLabsBackpack"/>
+          <include name="tc12_logout"/>
+          <include name="tc11_about"/>
+          <include name="tc14_closeMenu"/>
           <include name="beforeTest"/>
-          <include name="openMenu"/>
+          <include name="tc13_resetApp"/>
+          <include name="tc10_allItems"/>
+          <include name="tc9_openMenu"/>
         </methods>
       </class> <!-- test.InventoryPageTest -->
     </classes>

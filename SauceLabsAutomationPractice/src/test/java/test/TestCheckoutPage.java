@@ -6,28 +6,30 @@ import org.testng.annotations.Test;
 import pom.CheckoutPage;
 import pom.ShoppingCartPage;
 
-public class CheckoutPageTest extends BaseTest{
-	
-
-	@Test
-	public void menuBtn() {
-	CheckoutPage checkoutPage = new CheckoutPage(driver);
-	
-	checkoutPage.menuButton();
-	
-	}
+public class TestCheckoutPage extends BaseTest{
 	
 	@Test
-	public void appLogo() {
+	public void tc29_appLogo() {
 		CheckoutPage checkoutPage = new CheckoutPage(driver);
 		
 		checkoutPage.appLogo();
 	
 	}
 	
+
+	@Test
+	public void tc30_menuBtn() {
+	CheckoutPage checkoutPage = new CheckoutPage(driver);
+	
+	checkoutPage.menuButton();
+	
+	}
+	
+
+	
 	
 	@Test
-	public void checkoutForm() {
+	public void tc31_checkoutForm() {
 		CheckoutPage checkoutPage = new CheckoutPage(driver);
 		
 		checkoutPage.checkoutForm();
@@ -36,7 +38,7 @@ public class CheckoutPageTest extends BaseTest{
 	
 	@Parameters({"validFirstName","validLastName","validZipCode"})
 	@Test
-	public void validInformation(String validFirstName ,String validLastName ,String validZipCode) {
+	public void tc32_validInformation(String validFirstName ,String validLastName ,String validZipCode) {
 		
 		CheckoutPage checkoutPage = new CheckoutPage(driver);
 		checkoutPage.validCheckoutInfo(validFirstName,validLastName,validZipCode);
